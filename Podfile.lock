@@ -1,0 +1,54 @@
+PODS:
+  - ABGaugeViewKit (1.0.1)
+  - Alamofire (4.8.2)
+  - Charts (3.2.2):
+    - Charts/Core (= 3.2.2)
+  - Charts/Core (3.2.2)
+  - IQKeyboardManagerSwift (6.2.1)
+  - PDFGenerator (3.0.0)
+  - SimplePDF (3.0.0)
+  - Socket.IO-Client-Swift (15.0.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
+  - SwiftChart (1.0.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - ABGaugeViewKit
+  - Alamofire
+  - Charts
+  - IQKeyboardManagerSwift
+  - PDFGenerator
+  - SimplePDF
+  - Socket.IO-Client-Swift
+  - SwiftChart
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ABGaugeViewKit
+    - Alamofire
+    - Charts
+    - IQKeyboardManagerSwift
+    - PDFGenerator
+    - SimplePDF
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftChart
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ABGaugeViewKit: b69c855c2878e5ba49605b0662d409c1577ed198
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  PDFGenerator: e00fd09ae8021e304b5672cf11bc28234fc626e7
+  SimplePDF: 903143ede36965886997a5c1bc6b8940b082ba20
+  Socket.IO-Client-Swift: c039a808195d22a7192962841b8c035cb61ea49e
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: e9770fa9296f3e352bb8c0aabd4a048ce4baac5d
+
+COCOAPODS: 1.6.1

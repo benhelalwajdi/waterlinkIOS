@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC412919688B14E640D0712 /* Pods_waterlinkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D81B264103EAAEA5A6E3C66 /* Pods_waterlinkUITests.framework */; };
+		418C5E6C44D4D946DD8614BB /* Pods_waterlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79256D7B39C0A263D90AE413 /* Pods_waterlink.framework */; };
+		61B8843D5F39D0522B85A606 /* Pods_waterlinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34775DE7FD674CC9C640F5B5 /* Pods_waterlinkTests.framework */; };
+		F501AD0F22217D5A00C15C43 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F501AD0E22217D5A00C15C43 /* ChartsViewController.swift */; };
+		F53E0321224D478C00256FDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E0320224D478C00256FDC /* LoginViewController.swift */; };
+		F574882C224E3370007380DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F574882B224E3370007380DC /* Main.storyboard */; };
+		F574882E224F7B20007380DC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574882D224F7B20007380DC /* Common.swift */; };
+		F57B999E2274FF34001791EC /* FactureSimulatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B999D2274FF34001791EC /* FactureSimulatorTableViewController.swift */; };
+		F58251B02252386D00FAB21D /* DetailFactureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58251AF2252386D00FAB21D /* DetailFactureTableViewController.swift */; };
+		F58251B6225277B200FAB21D /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58251B5225277B200FAB21D /* ProfilViewController.swift */; };
+		F583540A224D630100E2A88B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5835409224D630100E2A88B /* HomeViewController.swift */; };
+		F583540C224D662C00E2A88B /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F583540B224D662C00E2A88B /* GaugeView.swift */; };
+		F5B6CE1722513FCE0014DC1A /* FactureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6CE1622513FCE0014DC1A /* FactureTableViewController.swift */; };
+		F5B6CE1D2251514F0014DC1A /* ChartsConsommationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B6CE1C2251514F0014DC1A /* ChartsConsommationViewController.swift */; };
+		F5BF0ED32219CA6F00D90181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF0ED22219CA6F00D90181 /* AppDelegate.swift */; };
+		F5BF0EDB2219CA6F00D90181 /* waterlink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5BF0ED92219CA6F00D90181 /* waterlink.xcdatamodeld */; };
+		F5BF0EDD2219CA7000D90181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BF0EDC2219CA7000D90181 /* Assets.xcassets */; };
+		F5BF0EE02219CA7000D90181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BF0EDE2219CA7000D90181 /* LaunchScreen.storyboard */; };
+		F5BF0EEB2219CA7000D90181 /* waterlinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF0EEA2219CA7000D90181 /* waterlinkTests.swift */; };
+		F5BF0EF62219CA7000D90181 /* waterlinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF0EF52219CA7000D90181 /* waterlinkUITests.swift */; };
+		F5BFDE212252DCF10087DE77 /* PdfPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BFDE202252DCF10087DE77 /* PdfPreviewViewController.swift */; };
+		F5F8AF2A227100C600D006CB /* ProfilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8AF29227100C600D006CB /* ProfilTableViewController.swift */; };
+		F5F8AF2C2271090B00D006CB /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8AF2B2271090B00D006CB /* SettingTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5BF0EE72219CA7000D90181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BF0EC72219CA6F00D90181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BF0ECE2219CA6F00D90181;
+			remoteInfo = waterlink;
+		};
+		F5BF0EF22219CA7000D90181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5BF0EC72219CA6F00D90181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BF0ECE2219CA6F00D90181;
+			remoteInfo = waterlink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34775DE7FD674CC9C640F5B5 /* Pods_waterlinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterlinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB0F057CDD7668319A1CC2E /* Pods-waterlinkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlinkUITests.release.xcconfig"; path = "Target Support Files/Pods-waterlinkUITests/Pods-waterlinkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D81B264103EAAEA5A6E3C66 /* Pods_waterlinkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterlinkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79256D7B39C0A263D90AE413 /* Pods_waterlink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterlink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7FE635C4C37D2E5F953388 /* Pods-waterlinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlinkTests.debug.xcconfig"; path = "Target Support Files/Pods-waterlinkTests/Pods-waterlinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80C0C7898CEE0DD8134D145E /* Pods-waterlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlink.release.xcconfig"; path = "Target Support Files/Pods-waterlink/Pods-waterlink.release.xcconfig"; sourceTree = "<group>"; };
+		81FAA204519DDC525D939183 /* Pods-waterlinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlinkUITests.debug.xcconfig"; path = "Target Support Files/Pods-waterlinkUITests/Pods-waterlinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EA21862D8DEEEC9E26C55E /* Pods-waterlink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlink.debug.xcconfig"; path = "Target Support Files/Pods-waterlink/Pods-waterlink.debug.xcconfig"; sourceTree = "<group>"; };
+		E400D4E7CAF1F537599FEDBB /* Pods-waterlinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterlinkTests.release.xcconfig"; path = "Target Support Files/Pods-waterlinkTests/Pods-waterlinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		F501AD0E22217D5A00C15C43 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		F53E0320224D478C00256FDC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F574882B224E3370007380DC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F574882D224F7B20007380DC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F57586FB2272849800A72647 /* waterlink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = waterlink.entitlements; sourceTree = "<group>"; };
+		F57B999D2274FF34001791EC /* FactureSimulatorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactureSimulatorTableViewController.swift; sourceTree = "<group>"; };
+		F58251AF2252386D00FAB21D /* DetailFactureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFactureTableViewController.swift; sourceTree = "<group>"; };
+		F58251B5225277B200FAB21D /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		F5835409224D630100E2A88B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F583540B224D662C00E2A88B /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		F5B6CE1622513FCE0014DC1A /* FactureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactureTableViewController.swift; sourceTree = "<group>"; };
+		F5B6CE1C2251514F0014DC1A /* ChartsConsommationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsConsommationViewController.swift; sourceTree = "<group>"; };
+		F5BF0ECF2219CA6F00D90181 /* waterlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF0ED22219CA6F00D90181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5BF0EDA2219CA6F00D90181 /* waterlink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterlink.xcdatamodel; sourceTree = "<group>"; };
+		F5BF0EDC2219CA7000D90181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BF0EDF2219CA7000D90181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5BF0EE12219CA7000D90181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BF0EE62219CA7000D90181 /* waterlinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterlinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF0EEA2219CA7000D90181 /* waterlinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterlinkTests.swift; sourceTree = "<group>"; };
+		F5BF0EEC2219CA7000D90181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BF0EF12219CA7000D90181 /* waterlinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterlinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BF0EF52219CA7000D90181 /* waterlinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterlinkUITests.swift; sourceTree = "<group>"; };
+		F5BF0EF72219CA7000D90181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BFDE202252DCF10087DE77 /* PdfPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfPreviewViewController.swift; sourceTree = "<group>"; };
+		F5F8AF29227100C600D006CB /* ProfilTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilTableViewController.swift; sourceTree = "<group>"; };
+		F5F8AF2B2271090B00D006CB /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BF0ECC2219CA6F00D90181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C5E6C44D4D946DD8614BB /* Pods_waterlink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EE32219CA7000D90181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B8843D5F39D0522B85A606 /* Pods_waterlinkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EEE2219CA7000D90181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC412919688B14E640D0712 /* Pods_waterlinkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422BD4B5D4991A49BEE87D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA21862D8DEEEC9E26C55E /* Pods-waterlink.debug.xcconfig */,
+				80C0C7898CEE0DD8134D145E /* Pods-waterlink.release.xcconfig */,
+				7A7FE635C4C37D2E5F953388 /* Pods-waterlinkTests.debug.xcconfig */,
+				E400D4E7CAF1F537599FEDBB /* Pods-waterlinkTests.release.xcconfig */,
+				81FAA204519DDC525D939183 /* Pods-waterlinkUITests.debug.xcconfig */,
+				3AB0F057CDD7668319A1CC2E /* Pods-waterlinkUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5BF0EC62219CA6F00D90181 = {
+			isa = PBXGroup;
+			children = (
+				F5BF0ED12219CA6F00D90181 /* waterlink */,
+				F5BF0EE92219CA7000D90181 /* waterlinkTests */,
+				F5BF0EF42219CA7000D90181 /* waterlinkUITests */,
+				F5BF0ED02219CA6F00D90181 /* Products */,
+				422BD4B5D4991A49BEE87D66 /* Pods */,
+				FF4230EC97ECD20454406CFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BF0ED02219CA6F00D90181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF0ECF2219CA6F00D90181 /* waterlink.app */,
+				F5BF0EE62219CA7000D90181 /* waterlinkTests.xctest */,
+				F5BF0EF12219CA7000D90181 /* waterlinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BF0ED12219CA6F00D90181 /* waterlink */ = {
+			isa = PBXGroup;
+			children = (
+				F57586FB2272849800A72647 /* waterlink.entitlements */,
+				F5BF0ED22219CA6F00D90181 /* AppDelegate.swift */,
+				F5BF0EDC2219CA7000D90181 /* Assets.xcassets */,
+				F574882B224E3370007380DC /* Main.storyboard */,
+				F57B999D2274FF34001791EC /* FactureSimulatorTableViewController.swift */,
+				F5B6CE1C2251514F0014DC1A /* ChartsConsommationViewController.swift */,
+				F5BF0EDE2219CA7000D90181 /* LaunchScreen.storyboard */,
+				F5BF0EE12219CA7000D90181 /* Info.plist */,
+				F5BF0ED92219CA6F00D90181 /* waterlink.xcdatamodeld */,
+				F501AD0E22217D5A00C15C43 /* ChartsViewController.swift */,
+				F53E0320224D478C00256FDC /* LoginViewController.swift */,
+				F5835409224D630100E2A88B /* HomeViewController.swift */,
+				F583540B224D662C00E2A88B /* GaugeView.swift */,
+				F574882D224F7B20007380DC /* Common.swift */,
+				F5B6CE1622513FCE0014DC1A /* FactureTableViewController.swift */,
+				F58251AF2252386D00FAB21D /* DetailFactureTableViewController.swift */,
+				F58251B5225277B200FAB21D /* ProfilViewController.swift */,
+				F5BFDE202252DCF10087DE77 /* PdfPreviewViewController.swift */,
+				F5F8AF29227100C600D006CB /* ProfilTableViewController.swift */,
+				F5F8AF2B2271090B00D006CB /* SettingTableViewController.swift */,
+			);
+			path = waterlink;
+			sourceTree = "<group>";
+		};
+		F5BF0EE92219CA7000D90181 /* waterlinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF0EEA2219CA7000D90181 /* waterlinkTests.swift */,
+				F5BF0EEC2219CA7000D90181 /* Info.plist */,
+			);
+			path = waterlinkTests;
+			sourceTree = "<group>";
+		};
+		F5BF0EF42219CA7000D90181 /* waterlinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF0EF52219CA7000D90181 /* waterlinkUITests.swift */,
+				F5BF0EF72219CA7000D90181 /* Info.plist */,
+			);
+			path = waterlinkUITests;
+			sourceTree = "<group>";
+		};
+		FF4230EC97ECD20454406CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79256D7B39C0A263D90AE413 /* Pods_waterlink.framework */,
+				34775DE7FD674CC9C640F5B5 /* Pods_waterlinkTests.framework */,
+				4D81B264103EAAEA5A6E3C66 /* Pods_waterlinkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BF0ECE2219CA6F00D90181 /* waterlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BF0EFA2219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlink" */;
+			buildPhases = (
+				A24796DEE379EB542EB49624 /* [CP] Check Pods Manifest.lock */,
+				F5BF0ECB2219CA6F00D90181 /* Sources */,
+				F5BF0ECC2219CA6F00D90181 /* Frameworks */,
+				F5BF0ECD2219CA6F00D90181 /* Resources */,
+				94693AEAFCE9D15731F5216D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterlink;
+			productName = waterlink;
+			productReference = F5BF0ECF2219CA6F00D90181 /* waterlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5BF0EE52219CA7000D90181 /* waterlinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BF0EFD2219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlinkTests" */;
+			buildPhases = (
+				1829230C10EF429352F4B0C8 /* [CP] Check Pods Manifest.lock */,
+				F5BF0EE22219CA7000D90181 /* Sources */,
+				F5BF0EE32219CA7000D90181 /* Frameworks */,
+				F5BF0EE42219CA7000D90181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BF0EE82219CA7000D90181 /* PBXTargetDependency */,
+			);
+			name = waterlinkTests;
+			productName = waterlinkTests;
+			productReference = F5BF0EE62219CA7000D90181 /* waterlinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5BF0EF02219CA7000D90181 /* waterlinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BF0F002219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlinkUITests" */;
+			buildPhases = (
+				2E1E3EEA2AF2FB69BDA95624 /* [CP] Check Pods Manifest.lock */,
+				F5BF0EED2219CA7000D90181 /* Sources */,
+				F5BF0EEE2219CA7000D90181 /* Frameworks */,
+				F5BF0EEF2219CA7000D90181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5BF0EF32219CA7000D90181 /* PBXTargetDependency */,
+			);
+			name = waterlinkUITests;
+			productName = waterlinkUITests;
+			productReference = F5BF0EF12219CA7000D90181 /* waterlinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BF0EC72219CA6F00D90181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tarek El Ghoul";
+				TargetAttributes = {
+					F5BF0ECE2219CA6F00D90181 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					F5BF0EE52219CA7000D90181 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5BF0ECE2219CA6F00D90181;
+					};
+					F5BF0EF02219CA7000D90181 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5BF0ECE2219CA6F00D90181;
+					};
+				};
+			};
+			buildConfigurationList = F5BF0ECA2219CA6F00D90181 /* Build configuration list for PBXProject "waterlink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BF0EC62219CA6F00D90181;
+			productRefGroup = F5BF0ED02219CA6F00D90181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BF0ECE2219CA6F00D90181 /* waterlink */,
+				F5BF0EE52219CA7000D90181 /* waterlinkTests */,
+				F5BF0EF02219CA7000D90181 /* waterlinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BF0ECD2219CA6F00D90181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574882C224E3370007380DC /* Main.storyboard in Resources */,
+				F5BF0EE02219CA7000D90181 /* LaunchScreen.storyboard in Resources */,
+				F5BF0EDD2219CA7000D90181 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EE42219CA7000D90181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EEF2219CA7000D90181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1829230C10EF429352F4B0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterlinkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E1E3EEA2AF2FB69BDA95624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterlinkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94693AEAFCE9D15731F5216D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waterlink/Pods-waterlink-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ABGaugeViewKit/ABGaugeViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFGenerator/PDFGenerator.framework",
+				"${BUILT_PRODUCTS_DIR}/SimplePDF/SimplePDF.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABGaugeViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFGenerator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimplePDF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-waterlink/Pods-waterlink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24796DEE379EB542EB49624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterlink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BF0ECB2219CA6F00D90181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58251B6225277B200FAB21D /* ProfilViewController.swift in Sources */,
+				F5B6CE1722513FCE0014DC1A /* FactureTableViewController.swift in Sources */,
+				F583540A224D630100E2A88B /* HomeViewController.swift in Sources */,
+				F5B6CE1D2251514F0014DC1A /* ChartsConsommationViewController.swift in Sources */,
+				F58251B02252386D00FAB21D /* DetailFactureTableViewController.swift in Sources */,
+				F57B999E2274FF34001791EC /* FactureSimulatorTableViewController.swift in Sources */,
+				F5F8AF2A227100C600D006CB /* ProfilTableViewController.swift in Sources */,
+				F53E0321224D478C00256FDC /* LoginViewController.swift in Sources */,
+				F501AD0F22217D5A00C15C43 /* ChartsViewController.swift in Sources */,
+				F5BF0EDB2219CA6F00D90181 /* waterlink.xcdatamodeld in Sources */,
+				F5F8AF2C2271090B00D006CB /* SettingTableViewController.swift in Sources */,
+				F5BFDE212252DCF10087DE77 /* PdfPreviewViewController.swift in Sources */,
+				F583540C224D662C00E2A88B /* GaugeView.swift in Sources */,
+				F5BF0ED32219CA6F00D90181 /* AppDelegate.swift in Sources */,
+				F574882E224F7B20007380DC /* Common.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EE22219CA7000D90181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BF0EEB2219CA7000D90181 /* waterlinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BF0EED2219CA7000D90181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BF0EF62219CA7000D90181 /* waterlinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5BF0EE82219CA7000D90181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BF0ECE2219CA6F00D90181 /* waterlink */;
+			targetProxy = F5BF0EE72219CA7000D90181 /* PBXContainerItemProxy */;
+		};
+		F5BF0EF32219CA7000D90181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BF0ECE2219CA6F00D90181 /* waterlink */;
+			targetProxy = F5BF0EF22219CA7000D90181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5BF0EDE2219CA7000D90181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BF0EDF2219CA7000D90181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BF0EF82219CA7000D90181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BF0EF92219CA7000D90181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BF0EFB2219CA7000D90181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EA21862D8DEEEC9E26C55E /* Pods-waterlink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = waterlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.wbh.waterlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5BF0EFC2219CA7000D90181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C0C7898CEE0DD8134D145E /* Pods-waterlink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = waterlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.wbh.waterlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5BF0EFE2219CA7000D90181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7FE635C4C37D2E5F953388 /* Pods-waterlinkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LATFQ2CT64;
+				INFOPLIST_FILE = waterlinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.elghoul.waterlinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterlink.app/waterlink";
+			};
+			name = Debug;
+		};
+		F5BF0EFF2219CA7000D90181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E400D4E7CAF1F537599FEDBB /* Pods-waterlinkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LATFQ2CT64;
+				INFOPLIST_FILE = waterlinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.elghoul.waterlinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterlink.app/waterlink";
+			};
+			name = Release;
+		};
+		F5BF0F012219CA7000D90181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FAA204519DDC525D939183 /* Pods-waterlinkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LATFQ2CT64;
+				INFOPLIST_FILE = waterlinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.elghoul.waterlinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waterlink;
+			};
+			name = Debug;
+		};
+		F5BF0F022219CA7000D90181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB0F057CDD7668319A1CC2E /* Pods-waterlinkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LATFQ2CT64;
+				INFOPLIST_FILE = waterlinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.elghoul.waterlinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waterlink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BF0ECA2219CA6F00D90181 /* Build configuration list for PBXProject "waterlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF0EF82219CA7000D90181 /* Debug */,
+				F5BF0EF92219CA7000D90181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BF0EFA2219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF0EFB2219CA7000D90181 /* Debug */,
+				F5BF0EFC2219CA7000D90181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BF0EFD2219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF0EFE2219CA7000D90181 /* Debug */,
+				F5BF0EFF2219CA7000D90181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BF0F002219CA7000D90181 /* Build configuration list for PBXNativeTarget "waterlinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BF0F012219CA7000D90181 /* Debug */,
+				F5BF0F022219CA7000D90181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5BF0ED92219CA6F00D90181 /* waterlink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5BF0EDA2219CA6F00D90181 /* waterlink.xcdatamodel */,
+			);
+			currentVersion = F5BF0EDA2219CA6F00D90181 /* waterlink.xcdatamodel */;
+			path = waterlink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5BF0EC72219CA6F00D90181 /* Project object */;
+}
